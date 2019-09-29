@@ -145,7 +145,8 @@ public class WalletHubReviewPage extends seleniumCommanMethods {
 	}
 
 	/**
-	 * mouseOver on starts
+	 * mouseOver on star
+	 * @param provide which start you want to mouse over
 	 */
 
 	public void mouseOverOnStars(int number) {
@@ -182,7 +183,9 @@ public class WalletHubReviewPage extends seleniumCommanMethods {
 	}
 
 	/**
-	 * mouseOver on starts
+	 * click on star
+	 * @param provide which start you want to select
+
 	 */
 
 	public void clickOnStars(int number) {

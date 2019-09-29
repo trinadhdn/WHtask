@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\trina\workspace\WalletHub\testng.xml</span>
+                    <span>C:\WalletHubTask\WHtask\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -143,14 +143,13 @@
                   </a> <!-- whFunctionalityTest(public void com.walletHubReview.testCases.WalletReviewTestCases.whFunctionalityTest(java.lang.reflec...) -->
                   <span class="method-name">whFunctionalityTest</span>
                   <span class="parameters">(public void com.walletHubReview.testCases.WalletReviewTestCases.whFunctionalityTest(java.lang.reflect.Method))</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//nav[@class=&apos;burger-menu-right-menu brgm-guest-user&apos;]//*[text()=&apos;Login&apos;]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;SANJULAKHITH&apos;, ip: &apos;172.31.112.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 64beccdce75034c69f598969b96cb7d1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3cb146859dae8545abcadaba13f9e7a7
 *** Element info: {Using=xpath, value=//nav[@class=&apos;burger-menu-right-menu brgm-guest-user&apos;]//*[text()=&apos;Login&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -162,10 +161,14 @@ Session ID: 64beccdce75034c69f598969b96cb7d1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.walletHub.SeleniumHandler.seleniumCommanMethods.getElementByElement(seleniumCommanMethods.java:34)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.walletHub.SeleniumHandler.seleniumCommanMethods.driverWait(seleniumCommanMethods.java:80)
+	at com.walletHub.SeleniumHandler.seleniumCommanMethods.getElementByElement(seleniumCommanMethods.java:33)
 	at com.PageObject.wallethubRating.WalletHubReviewPage.clicOnLoginLink(WalletHubReviewPage.java:77)
 	at com.walletHubReview.testCases.WalletReviewTestCases.whFunctionalityTest(WalletReviewTestCases.java:35)
-... Removed 28 stack frames
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (FaceBook functionality Test)                  </em>
@@ -194,7 +197,7 @@ Session ID: 64beccdce75034c69f598969b96cb7d1
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\trina\workspace\WalletHub\testng.xml</span>
+            <span class="header-content">C:\WalletHubTask\WHtask\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -248,16 +251,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'whFunctionalityTest')
 data.setCell(0, 2, 'com.walletHubReview.testCases.WalletReviewTestCases')
-data.setCell(0, 3, 25132);
+data.setCell(0, 3, 28503);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'fbFunctionalityTest')
 data.setCell(1, 2, 'com.testCases.FB.FaceBookLogin')
-data.setCell(1, 3, 11060);
+data.setCell(1, 3, 15258);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -292,26 +295,26 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">whFunctionalityTest(public void com.walletHubReview.testCases.WalletReviewTestCases.whFunctionalityTest(java.lang.reflec...)</span>
-                <span class="method-start">6852 ms</span>
+                <span class="method-start">7315 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterAllIsSaidAndDone</span>
-                <span class="method-start">31989 ms</span>
+                <span class="method-start">35823 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testCases.FB.FaceBookLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClss</span>
-                <span class="method-start">32936 ms</span>
+                <span class="method-start">49844 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">fbFunctionalityTest(public void com.testCases.FB.FaceBookLogin.fbFunctionalityTest(java.lang.reflect.Method))</span>
-                <span class="method-start">42639 ms</span>
+                <span class="method-start">58650 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterAllIsSaidAndDone</span>
-                <span class="method-start">53700 ms</span>
+                <span class="method-start">73910 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

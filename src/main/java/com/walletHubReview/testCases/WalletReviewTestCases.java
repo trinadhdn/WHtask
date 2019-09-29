@@ -38,9 +38,14 @@ public class WalletReviewTestCases extends DefaultTest {
 		Assert.assertTrue("Login page is not ready", wh.isLoginPageReady());
 
 		// set credentials for login
-		/* PLEASE NOTE THAT BELOW DETAILS ARE ALREADY USED IN MY TEST , so
-		 please user new for test . Just replace username and password and run
-		 the file*/
+
+		/******
+		 * PLEASE NOTE THAT BELOW DETAILS ARE ALREADY USED IN MY TEST , so
+		 * please use new for execution to avoid failure as system is allow to
+		   give only one review.
+		 * Just replace below username and password and run the file
+		 ******/
+
 		wh.email = "trinadh.work19@gmail.com";
 		wh.passWord = "ND3nadh33!9";
 

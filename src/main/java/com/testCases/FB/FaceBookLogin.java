@@ -38,8 +38,8 @@ public class FaceBookLogin extends DefaultTest {
 		Assert.assertTrue("Login page is not ready", fb.isLoginPageReady());
 
 		// set credentials for login
-		fb.email = "trinadh.work19@gmail.com";
-		fb.passWord = "nd3nadh339";
+		fb.email = "EMAIL@gmail.com";
+		fb.passWord = "PASSWORD";
 
 		// Fill the details in login screen and login to FB
 		fb.fillEmailandPasswordThenClickOnLogin();

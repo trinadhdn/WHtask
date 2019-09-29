@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57772" started-at="2019-09-28T18:04:28Z" finished-at="2019-09-28T18:05:26Z">
+  <suite name="Suite" duration-ms="75802" started-at="2019-09-29T04:01:04Z" finished-at="2019-09-29T04:02:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="57772" started-at="2019-09-28T18:04:28Z" finished-at="2019-09-28T18:05:26Z">
+    <test name="Test" duration-ms="75802" started-at="2019-09-29T04:01:04Z" finished-at="2019-09-29T04:02:20Z">
       <class name="com.walletHubReview.testCases.WalletReviewTestCases">
-        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="beforeClss" is-config="true" duration-ms="6835" started-at="2019-09-28T18:04:28Z" description="startTest Clss" finished-at="2019-09-28T18:04:35Z">
+        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="beforeClss" is-config="true" duration-ms="7303" started-at="2019-09-29T04:01:04Z" description="startTest Clss" finished-at="2019-09-29T04:01:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClss -->
-        <test-method status="FAIL" signature="whFunctionalityTest(java.lang.reflect.Method)[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="whFunctionalityTest" duration-ms="25132" started-at="2019-09-28T18:04:35Z" description="FaceBook functionality Test" finished-at="2019-09-28T18:05:00Z">
+        <test-method status="FAIL" signature="whFunctionalityTest(java.lang.reflect.Method)[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="whFunctionalityTest" duration-ms="28503" started-at="2019-09-29T04:01:11Z" description="FaceBook functionality Test" finished-at="2019-09-29T04:01:40Z">
           <params>
             <param index="0">
               <value>
@@ -19,29 +19,28 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']"}
+              <![CDATA[chrome not reachable
   (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJULAKHITH', ip: '172.31.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 64beccdce75034c69f598969b96cb7d1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3cb146859dae8545abcadaba13f9e7a7
 *** Element info: {Using=xpath, value=//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']"}
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SANJULAKHITH', ip: '172.31.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 64beccdce75034c69f598969b96cb7d1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3cb146859dae8545abcadaba13f9e7a7
 *** Element info: {Using=xpath, value=//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']}
-at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -54,7 +53,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.walletHub.SeleniumHandler.seleniumCommanMethods.getElementByElement(seleniumCommanMethods.java:34)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at com.walletHub.SeleniumHandler.seleniumCommanMethods.driverWait(seleniumCommanMethods.java:80)
+at com.walletHub.SeleniumHandler.seleniumCommanMethods.getElementByElement(seleniumCommanMethods.java:33)
 at com.PageObject.wallethubRating.WalletHubReviewPage.clicOnLoginLink(WalletHubReviewPage.java:77)
 at com.walletHubReview.testCases.WalletReviewTestCases.whFunctionalityTest(WalletReviewTestCases.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -84,21 +87,21 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whFunctionalityTest -->
-        <test-method status="PASS" signature="afterAllIsSaidAndDone()[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="afterAllIsSaidAndDone" is-config="true" duration-ms="946" started-at="2019-09-28T18:05:00Z" description="endTest" finished-at="2019-09-28T18:05:01Z">
+        <test-method status="PASS" signature="afterAllIsSaidAndDone()[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="afterAllIsSaidAndDone" is-config="true" duration-ms="14020" started-at="2019-09-29T04:01:40Z" description="endTest" finished-at="2019-09-29T04:01:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAllIsSaidAndDone -->
       </class> <!-- com.walletHubReview.testCases.WalletReviewTestCases -->
       <class name="com.testCases.FB.FaceBookLogin">
-        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="beforeClss" is-config="true" duration-ms="9703" started-at="2019-09-28T18:05:01Z" description="startTest Clss" finished-at="2019-09-28T18:05:10Z">
+        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="beforeClss" is-config="true" duration-ms="8806" started-at="2019-09-29T04:01:54Z" description="startTest Clss" finished-at="2019-09-29T04:02:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClss -->
-        <test-method status="PASS" signature="fbFunctionalityTest(java.lang.reflect.Method)[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="fbFunctionalityTest" duration-ms="11060" started-at="2019-09-28T18:05:10Z" description="FaceBook functionality Test" finished-at="2019-09-28T18:05:22Z">
+        <test-method status="PASS" signature="fbFunctionalityTest(java.lang.reflect.Method)[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="fbFunctionalityTest" duration-ms="15258" started-at="2019-09-29T04:02:03Z" description="FaceBook functionality Test" finished-at="2019-09-29T04:02:18Z">
           <params>
             <param index="0">
               <value>
@@ -109,7 +112,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbFunctionalityTest -->
-        <test-method status="PASS" signature="afterAllIsSaidAndDone()[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="afterAllIsSaidAndDone" is-config="true" duration-ms="4061" started-at="2019-09-28T18:05:22Z" description="endTest" finished-at="2019-09-28T18:05:26Z">
+        <test-method status="PASS" signature="afterAllIsSaidAndDone()[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="afterAllIsSaidAndDone" is-config="true" duration-ms="1882" started-at="2019-09-29T04:02:18Z" description="endTest" finished-at="2019-09-29T04:02:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAllIsSaidAndDone -->
