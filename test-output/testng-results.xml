@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57772" started-at="2019-09-28T18:04:28Z" finished-at="2019-09-28T18:05:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57772" started-at="2019-09-28T18:04:28Z" finished-at="2019-09-28T18:05:26Z">
+      <class name="com.walletHubReview.testCases.WalletReviewTestCases">
+        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="beforeClss" is-config="true" duration-ms="6835" started-at="2019-09-28T18:04:28Z" description="startTest Clss" finished-at="2019-09-28T18:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClss -->
+        <test-method status="FAIL" signature="whFunctionalityTest(java.lang.reflect.Method)[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="whFunctionalityTest" duration-ms="25132" started-at="2019-09-28T18:04:35Z" description="FaceBook functionality Test" finished-at="2019-09-28T18:05:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.walletHubReview.testCases.WalletReviewTestCases.whFunctionalityTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SANJULAKHITH', ip: '172.31.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 64beccdce75034c69f598969b96cb7d1
+*** Element info: {Using=xpath, value=//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SANJULAKHITH', ip: '172.31.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\trina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 64beccdce75034c69f598969b96cb7d1
+*** Element info: {Using=xpath, value=//nav[@class='burger-menu-right-menu brgm-guest-user']//*[text()='Login']}
+at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.walletHub.SeleniumHandler.seleniumCommanMethods.getElementByElement(seleniumCommanMethods.java:34)
+at com.PageObject.wallethubRating.WalletHubReviewPage.clicOnLoginLink(WalletHubReviewPage.java:77)
+at com.walletHubReview.testCases.WalletReviewTestCases.whFunctionalityTest(WalletReviewTestCases.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whFunctionalityTest -->
+        <test-method status="PASS" signature="afterAllIsSaidAndDone()[pri:0, instance:com.walletHubReview.testCases.WalletReviewTestCases@2b98378d]" name="afterAllIsSaidAndDone" is-config="true" duration-ms="946" started-at="2019-09-28T18:05:00Z" description="endTest" finished-at="2019-09-28T18:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllIsSaidAndDone -->
+      </class> <!-- com.walletHubReview.testCases.WalletReviewTestCases -->
+      <class name="com.testCases.FB.FaceBookLogin">
+        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="beforeClss" is-config="true" duration-ms="9703" started-at="2019-09-28T18:05:01Z" description="startTest Clss" finished-at="2019-09-28T18:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClss -->
+        <test-method status="PASS" signature="fbFunctionalityTest(java.lang.reflect.Method)[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="fbFunctionalityTest" duration-ms="11060" started-at="2019-09-28T18:05:10Z" description="FaceBook functionality Test" finished-at="2019-09-28T18:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testCases.FB.FaceBookLogin.fbFunctionalityTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbFunctionalityTest -->
+        <test-method status="PASS" signature="afterAllIsSaidAndDone()[pri:0, instance:com.testCases.FB.FaceBookLogin@475530b9]" name="afterAllIsSaidAndDone" is-config="true" duration-ms="4061" started-at="2019-09-28T18:05:22Z" description="endTest" finished-at="2019-09-28T18:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllIsSaidAndDone -->
+      </class> <!-- com.testCases.FB.FaceBookLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
